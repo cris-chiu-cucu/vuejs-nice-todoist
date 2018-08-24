@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif
+}
+
+.btn {
+  background-color: #fff;
+  border: 0 none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+}
+
+.form-control {
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 4px;
+  border: 1px solid lightseagreen;
+  margin-right: 5px;
+  height: 35px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form-control.form-control--invalid {
+  border-color: red;
+}
